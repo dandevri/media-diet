@@ -27,7 +27,7 @@ After the PR is merged it will appear on the site! *Having trouble or got an ide
 
 I love the idea of keeping track of your media consumption which I first saw [Jason Kottke][kottke] do (hence the name media-diet) but then I discovered that tons of other people are doing it. 
 
-I couldn't find a way to discover other people's media consumption apart from looking trough their personal site looking for a similar page. Just like `[/uses][uses]` and `[/now][now]` this is project to 'standardiz'e the `/media-diet` page.
+I couldn't find a way to discover other people's media consumption apart from looking trough their personal site looking for a similar page. Just like [`/uses`][uses] and [`/now`][now] this is project to 'standardize' the `/media-diet` page.
 
 ## Install
 
