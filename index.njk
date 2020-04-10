@@ -21,3 +21,26 @@
 
 <blockquote>A little public directory of people's media diets</blockquote>
 </header>
+
+<main>
+  {% for item in collections.diet %}
+      <article class="item">
+        <header>
+          <img src="https://avatars.io/twitter/{{ item.data.handle}}">
+          <div>
+            <h2>
+              <a href="{{ item.data.url }}" rel="external">
+              {{ item.data.name }}</a>
+            </h2>
+            <h3><em>{{ item.data.website }}</em></h3>
+          </div>
+        </header>
+          <p>{{ item.data.description }}</p>
+          <ul class="tags">
+            {% for tag in item.data.tags %}
+              <li> {{ tag }} </li>
+            {% endfor %}
+          </ul>
+      </article>
+  {% endfor %}
+</main>

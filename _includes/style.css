@@ -1,10 +1,10 @@
-body, pre {
+body, pre, h2, h3 {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-header {
+body > header {
   background-color: #FEE140;
   background-image: linear-gradient(270deg, #FEE140 0%, #FA709A 100%);
   display: flex;
@@ -14,7 +14,62 @@ header {
   color: white;
 }
 
+pre {
+  font-size: 1.2vw;
+}
+
+a {
+  color: #FA709A;
+}
+
 blockquote {
   margin-left: 0;
   font-size: 1.5em;
+}
+
+body {
+  background-color: #fcf9f5;
+}
+
+main {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  grid-gap: 1rem;
+}
+
+article {
+  background-color: white;
+  padding: 1rem;
+  border:  1px solid #FEE140;
+}
+
+article > header {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 3em;
+  height: 50%;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tags {
+  display: flex;
+}
+
+.tags li {
+  background: #FA709A;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5%;
+  margin-right: 0.5rem;
 }
