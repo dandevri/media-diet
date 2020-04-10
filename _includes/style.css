@@ -73,3 +73,14 @@ ul {
   border-radius: 5%;
   margin-right: 0.5rem;
 }
+
+footer {
+  padding: 3rem;
+}
+
+hr {
+  width: 20%;
+  margin-left: 0;
+  opacity: 0.2;
+  color: #FEE140;
+}
