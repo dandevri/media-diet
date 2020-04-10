@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dandevri/media-diet/issues"
   },
-  "homepage": "https://github.com/dandevri/media-diet#readme"
+  "homepage": "https://github.com/dandevri/media-diet#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
 }
