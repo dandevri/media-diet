@@ -10,4 +10,10 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob('diet/*.md');
   });
   
+  return {
+    dir: {
+      output: "docs"
+    }
+  };
+  
 };
