@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dandevri/media-diet#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "clean-css": "^4.2.3"
   }
 }
