@@ -13,9 +13,11 @@ We'd love your contribution! Follow these steps to add your media diet to the li
 
     ```yaml
     ---
-    title: 'dandevri.es'
     name: Danny de Vries
+    website: 'dandevri.es'
+    description: Indie Maker building digital products for the web and lecturer at CMD Amsterdam. 
     url: 'https://dandevri.es/media-diet'
+    handle: dandevri
     tags: ['lecturer', 'maker']
     ---
     ```
